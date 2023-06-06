@@ -1,0 +1,128 @@
+.fill{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 1000px;
+    height: 500px;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+    background-color: rgba(52, 51, 51, 0.585);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.686);
+    border-radius: 10px;
+    color:#ffffff;
+ 
+   
+    
+    }
+
+.fill header{
+    font-size:3.5rem;
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    
+
+}
+
+.fill .box{
+    align-items: center;
+    justify-content: center ;
+    display: flex;
+    column-gap: 30px;
+    flex-wrap:wrap;
+    
+    
+}
+
+
+.box .column{
+    display: flex;
+    flex-wrap:wrap;
+    column-gap: 300px;
+    margin-top: 50px;
+    row-gap: 30px;
+    justify-content: center;
+    
+}
+
+.box .mouse {
+    display: flex;
+    column-gap: 200px;
+    margin-top: 50px;
+    row-gap: 20px;
+    justify-content: center;
+
+}
+
+.mouse .select-box{
+    position: relative;
+    height: 20px;
+    width: 1000px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    /* padding: 0 15px; */
+    margin-left: 1000px;
+    
+}
+
+
+.choose-box {
+        color: rgb(0, 0, 0);    
+        background: rgb(255, 255, 255);
+        font-size: 1rem;
+        width: 120px;
+        row-gap: 30px;
+        column-gap: 500px;
+   
+}
+
+.choose-area{
+    font-size: 1rem;
+    width: 250px;
+}
+
+
+.fill .Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50px 0;
+    height: 1px; */
+    
+}
+
+
+
+.Button a{
+    text-decoration:none;
+    display: inline-block;
+    color: rgb(189, 240, 255);
+    font-size: 24px;
+    font-weight: 800;
+    border: 2px solid #ffffff;
+    padding: 5px 15px;
+    border-radius: 50px;
+    /* margin-top: 10px; */
+    width: 300px;
+    text-align: center;
+    height: 40px;
+    margin-top: 60px;
+   
+}
+ .switch a:hover{
+    border: 4px solid #ffffff;
+    /* padding: 5px 10px; */
+    border-radius: 10px;
+    /* margin-top: 5px; */
+    background: #000000;
+    transition: 3s;
+ }
+ 
+ .credit {
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+  }
